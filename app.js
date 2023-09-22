@@ -6,7 +6,7 @@ const modalRemoveElem = document.querySelector(".modal-remove");
 
 function displayChat() {
     bodyElem.innerHTML = `
-        <img class="chat-img" src="./imgs/chat-img.png">
+        <img class="chat-img" src="../imgs/chat-img.png">
     `;
 
     fabElem.classList.add("remove");
