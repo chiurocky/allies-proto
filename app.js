@@ -18,7 +18,7 @@ function revertHomeNav() {
 
 function displayChat() {
     bodyElem.innerHTML = `
-        <img class="modals chat" src="../imgs/chat.png">
+        <img class="modals chat" src="imgs/chat.png">
     `;
     titleElem.textContent = "chat";
     revertHomeNav();
@@ -26,7 +26,7 @@ function displayChat() {
 
 function displaySearch() {
     bodyElem.innerHTML = `
-        <img class="modals search-scroll" src="../imgs/search.png">
+        <img class="modals search-scroll" src="imgs/search.png">
     `;
     titleElem.textContent = "search";
     revertHomeNav();
@@ -34,7 +34,7 @@ function displaySearch() {
 
 function displayAllies() {
     bodyElem.innerHTML = `
-        <img class="modals your-corner" src="../imgs/your-corner.png">
+        <img class="modals your-corner" src="imgs/your-corner.png">
     `;
     titleElem.textContent = "your allies";
     revertHomeNav();
@@ -42,7 +42,7 @@ function displayAllies() {
 
 function closeModal() {
     bodyElem.innerHTML = `
-    <img class="hero-img" src="../imgs/hero.png" alt="feed scroll">
+    <img class="hero-img" src="imgs/hero.png" alt="hero">
     <img src="imgs/feed-scroll.png" alt="feed scroll">
     `;
 
